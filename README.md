@@ -1,4 +1,4 @@
-### Main Image
+![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_mainFrontEnd.PNG)
 **PC-Battery-Detector** is a desktop application(Windows) build in python with the following functionalities:
 - Displays PC battery level(%)
 - Alarms when battery level falls to a certain percentage(defaults to **20%**)
@@ -25,14 +25,14 @@ PC-Battery-Detector allows you to constantly monitor your computer's battery lev
     - Open a command line and run ```python main.pyw```.
 
 ### Usage
-PC-Battery-Detector_labledImage
+![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_labelGUI.png)
 PC-Battery-Detector consist of 2 main sections
 
 **A.** This section shows the computer's current battery level in real-time. This percentage value turns to red when it falls bellow the minimum battery level, which defaults to **20%**
 
 **B.** This section contains the followings:
 ###### a) Setting
-###### Setting Image
+![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_configurationPannelGUI.png)
 Here, you can do the following settings:
 1. Disable/Enable alarm popup
 2. Set minimum battery level which will trigger alarm
@@ -43,7 +43,7 @@ Here, you can do the following settings:
 7. Set alarm to pupup after every defined minutes.
 
 ###### b) About
-###### About image
+![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_about.PNG)
 Displays information about the application. To view license, click the **Show Details..** button
 
 ###### c) Exit
@@ -61,9 +61,3 @@ To contribute, go ahead and:
 ### History
 The first PC I ever had was Fujutsu, and I installed Windows 7 in it. With time, the PC performance was diminishing up to an extend where it hardly indicate or notify me when my battery level is below a certain value. Sometimes I forget to put it on charge and I keep working and the battery will get low till the PC will go off. This situation was really anoying me and so, I decided to create this app so that I would be notified each time my battery goes below a certain value.
 
-
-
-
-
-"# PC-Battery-Detector" 
-"# PC-Battery-Detector" 
