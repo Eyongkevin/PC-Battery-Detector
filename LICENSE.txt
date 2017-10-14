@@ -1,0 +1,3 @@
+e~BD is a free software, you can distribute it and/or modify it under the terms of the GNU General Public License
+as published by the free software foundation.
+This program is distributed in the hope that it will be usefull but without any WARRANTY

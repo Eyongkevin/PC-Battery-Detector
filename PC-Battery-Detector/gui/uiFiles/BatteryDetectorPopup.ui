@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>batteryDetectorPopup_dialog</class>
+ <widget class="QDialog" name="batteryDetectorPopup_dialog">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>567</width>
+    <height>109</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>e~BD</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#batteryDetectorPopup_dialog{
+background-color:rgb(0, 0, 255)
+}</string>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="close_btn">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>72</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#close_btn{
+background-color:rgb(255, 0, 0);color:rgb(255, 255, 255)
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="alert_text">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#alert_text{
+color:rgb(255, 255, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Your battery is running low (9%)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="notify_text">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#notify_text{
+color:rgb(255, 255, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>You might want to charge your PC</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
