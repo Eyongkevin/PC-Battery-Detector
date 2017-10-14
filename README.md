@@ -1,4 +1,5 @@
 ![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_mainFrontEnd.PNG)
+
 **PC-Battery-Detector** is a desktop application(Windows) build in python with the following functionalities:
 - Displays PC battery level(%)
 - Alarms when battery level falls to a certain percentage(defaults to **20%**)
@@ -26,13 +27,15 @@ PC-Battery-Detector allows you to constantly monitor your computer's battery lev
 
 ### Usage
 ![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_labelGUI.png)
+
 PC-Battery-Detector consist of 2 main sections
 
 **A.** This section shows the computer's current battery level in real-time. This percentage value turns to red when it falls bellow the minimum battery level, which defaults to **20%**
 
 **B.** This section contains the followings:
-###### a) Setting
+##### a) Setting
 ![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_configurationPannelGUI.png)
+
 Here, you can do the following settings:
 1. Disable/Enable alarm popup
 2. Set minimum battery level which will trigger alarm
@@ -42,11 +45,12 @@ Here, you can do the following settings:
 6. Set sound for the alarm.
 7. Set alarm to pupup after every defined minutes.
 
-###### b) About
+##### b) About
 ![Image of PC-Battery-Detector](https://github.com/Eyongkevin/PC-Battery-Detector/blob/master/docs/images/PC-Battery-Detector_about.PNG)
+
 Displays information about the application. To view license, click the **Show Details..** button
 
-###### c) Exit
+##### c) Exit
 You an exit the application either by clicking on the **Exit** button or **X** button on the right-top of the application GUI.
 
 ### How to constribute
